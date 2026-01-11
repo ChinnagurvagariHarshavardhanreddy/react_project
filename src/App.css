@@ -1,0 +1,30 @@
+h1{
+  display: flex;
+  color:blue;
+  text-align: center;
+  border: 10px double black;
+  width:300px;
+  margin-left: 700px;
+  border-radius: 20px;
+  justify-content: center;
+  transition: ease-in-out 2s ;
+}
+body{
+  background:linear-gradient(violet,green) no-repeat;
+  background-attachment: fixed;
+}
+button:hover{
+  background-color: green;
+}
+button{
+  font-weight: 500px;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-left: 800px;
+  margin-top: 20px;
+  transition: ease-in-out 2s;
+}
+pre{
+  text-align: center;
+}
